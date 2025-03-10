@@ -5,8 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class slides extends Model
+class Slide extends Model
 {
-    use HasFactory;
-    protected $fillable = ['link', 'image'];
+    protected $table = 'slides';
 }
